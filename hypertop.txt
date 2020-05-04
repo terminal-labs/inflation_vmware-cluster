@@ -1,0 +1,10 @@
+{% block operations %}
+some_call:
+  name: demo
+  driver: "shell"
+  formater: "shell"
+  command: >
+    echo "hello"
+  flags:
+      - expect-json
+{% endblock operations %}
