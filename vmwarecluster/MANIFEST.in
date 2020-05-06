@@ -1,1 +1,1 @@
-include inflation/.coveragerc
+include vmwarecluster/.coveragerc

@@ -17,6 +17,7 @@ extra
 *.pex
 *.env.sh
 
+cache
 keys
 auth
 maintenance
@@ -24,9 +25,7 @@ run
 tmp
 .tmp
 .rambo-tmp
-.inflation-tmp
-.inflation-football-resources
-.inm-metafootball
+.inflation
 manifest
 activate.sh
 create.sh
