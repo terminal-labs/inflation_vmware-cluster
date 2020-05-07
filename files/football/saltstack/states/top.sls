@@ -1,3 +1,3 @@
 base:
   '*':
-    - lxc_engine
+    - basebox
