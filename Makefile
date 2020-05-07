@@ -14,3 +14,4 @@ inflate: download_python_environment_manager
 	@sudo bash .tmp/python-environment-manager-master/makefile_resources/scripts_inflation/python_build.sh $(APPNAME) $(SUDO_USER) mac
 	@sudo bash .tmp/python-environment-manager-master/makefile_resources/scripts_inflation/python_emit_activation_script.sh $(APPNAME) $(SUDO_USER) mac
 	@sudo bash .tmp/python-environment-manager-master/makefile_resources/scripts_inflation/build.sh $(APPNAME) $(SUDO_USER) mac
+	@sudo bash .tmp/python-environment-manager-master/makefile_resources/scripts_inflation/emit_activation_script.sh $(APPNAME) $(SUDO_USER) vagrant

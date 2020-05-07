@@ -1,4 +1,4 @@
-{% block operations %}
+!! block demo
 some_call:
   name: demo
   driver: "shell"
@@ -7,4 +7,4 @@ some_call:
     echo "hello"
   flags:
       - expect-json
-{% endblock operations %}
+!! endblock demo
