@@ -1,15 +1,13 @@
 .coverage
-logs
 keys.sh
 id_rsa
 id_rsa.pub
 
 package-lock.json
 __pycache__
+.Trash*
 env
 node_modules
-extra
-.vagrant
 \#*\#
 *~
 *egg-info
@@ -17,27 +15,24 @@ extra
 *.pex
 *.env.sh
 
+manifest
+secrets
 cache
+dist
+logs
 keys
 auth
-maintenance
 run
 tmp
 .tmp
 .rambo-tmp
 .inflation
-manifest
+.vagrant
+
 activate.sh
-create.sh
-*keys.sh
-.Trash*
+
 *.zip
-inflation-master
-*nodes
 *nohup.out
-*workingdirs
-*secrets
-*dist
 
 *.terraform
 *terraform.tfstate
