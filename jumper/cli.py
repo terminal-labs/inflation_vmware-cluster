@@ -3,9 +3,9 @@ import sys
 import click
 import pytest
 
-assert sys.version_info >= (3, 6, 0)
+from jumper.settings import *
 
-VERSION = "0.0.1"
+assert sys.version_info >= MINIMUM_PYTHON_VERSION
 
 @click.group()
 def cli():
